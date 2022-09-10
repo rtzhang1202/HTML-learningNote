@@ -47,7 +47,8 @@
 ***
 ## HTML CSS
 1、使用`<head>`对HTML进行格式化
-`<html>
+```html
+<html>
 
 <head>
 <style type="text/css">
@@ -61,4 +62,5 @@ p {color: blue}
 <p>A paragraph.</p>
 </body>
 
-</html>`
+</html>
+```
