@@ -1,5 +1,6 @@
 # HTML学习笔记
 
+来源：[https://www.w3school.com.cn/html](https://www.w3school.com.cn/html)
 ***
 ## 基本语法
 ### 1、语法入门
@@ -21,9 +22,26 @@
   
 
 4、 **table**: 定义表格
+  
 
-### 2、
+5、文本格式化
+点击[此处](https://www.w3school.com.cn/html/html_formatting.asp)跳转到教程界面，以下为常用
+- `pre`: 保留换行与空格的文本，适合显示计算机代码
+- `code`: 适合书写代码
+- `a href="link">LinkText</a>`: 表示链接/地址
+- `q`、`blockquote`: 分别表示短、长的引用文，在元素中可以用site=“link”来表示引用源地址
+
+### 2、HTML属性
 1、 style属性
 使用示例：`<body style="background-color:yellow">``<h2 style="background-color:red">This is a heading</h2`
 - background-color 属性为元素定义了**背景颜色**,颜色以名称或者代码表示
 - font-family 属性定义文本的**字体**
+- font-size 属性定义文本的**字体尺寸**
+- text-align 属性规定了元素中文本的水平对齐方式
+- - center: 居中
+- - end: 居右
+- - justify: 居左
+  
+
+***
+## HTML CSS
