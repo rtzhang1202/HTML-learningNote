@@ -1,6 +1,6 @@
 # HTML学习笔记
 
-来源：[https://www.w3school.com.cn/html](https://www.w3school.com.cn/html)
+来源：[https://www.w3school.com.cn/html](https://www.w3school.com/html)
 ***
 ## 基本语法
 ### 1、语法入门
