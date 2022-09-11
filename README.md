@@ -53,9 +53,9 @@
 
 <br>
 
-1、 **style属性**
-使用示例：`<body style="background-color:yellow">`
-<br\>`<h2 style="background-color:red ; font-size:14px">This is a heading</h2>`
+1、 **style属性**  
+使用示例：`<body style="background-color:yellow">`  
+`<h2 style="background-color:red ; font-size:14px">This is a heading</h2>`
 
 - `background-color` 属性为元素定义了**背景颜色**,颜色以名称或者代码表示
 - `font-family` 属性定义文本的**字体**
