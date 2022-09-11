@@ -87,9 +87,9 @@
 更多表格元素、标签见[此处](https://www.w3school.com.cn/html/html_tables.asp)
   
 2、**表格属性**
-- bgcolor 用于定义背景颜色
-- backgroud 用于定义背景图片
-- align 用于定义内容格式，有right-居右、center-居中、left-居左等
+- `bgcolor` 用于定义背景颜色
+- `backgroud` 用于定义背景图片
+- `align` 用于定义内容格式，有right-居右、center-居中、left-居左等
   
 3、**列表属性**
 - `<ol>`: 定义有序列表
