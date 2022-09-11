@@ -6,11 +6,13 @@
 ### 1、语法入门
 元素成对存在，必须存在的元素:`<html></html>`，最好全部使用小写
 （以下元素词语默认按照上条格式）
-全局属性[在此](https://www.w3school.com.cn/tags/index.asp)。
+全局属性[在此](https://www.w3school.com.cn/tags/index.asp)。  
+块元素与内联元素的区别[在此](https://www.w3school.com.cn/html/html_blocks.asp)
 
 1、 **body**: 表示主体，该元素中间的内容会被显示
 - `<hr/>`可以创建水平线
 - `<!--注释-->`用于创建注释
+- margin 属性用于body元素可以规定元素距离四边的距离,可以规定比例、像素和具体距离等
   
 
 2、**h1、h2、h3**: 表示HTML标题，从1到3大小逐次递减，最小为6
@@ -76,6 +78,47 @@
 - `width`、`height` 属性在img元素内定义图片尺寸
 
 
+### 3、表格与列表
+1、**表格元素**  
+`<table>`: 用于定义一个表格  
+`<tr>`: 用于分行，含义是table row  
+`<td>`: 用于分列，含义是table data  
+`<th>`： 用于写表头，写在tr元素内  
+更多表格元素、标签见[此处](https://www.w3school.com.cn/html/html_tables.asp)
+  
+2、**表格属性**
+- bgcolor 用于定义背景颜色
+- backgroud 用于定义背景图片
+- align 用于定义内容格式，有right-居右、center-居中、left-居左等
+  
+3、**列表属性**
+- `<ol>`: 定义有序列表
+- `<ul>`: 定义无序列表
+- `<li>`: 定义列表项
+- `<dl>`: 定义自定义列表
+- `<dt>`: 定义自定义列表的每个项目
+- `<dd>`: 定义自定义列表的每个项目的描述
+
+```html
+<!--表格示例-->
+<table border="1"> <!--border=1为有边框，=0或者不写为无边框-->
+<tr>
+<td>row 1, cell 1</td>
+<td>row 1, cell 2</td>
+</tr>
+<tr>
+<td>row 2, cell 1</td>
+<td>row 2, cell 2</td>
+</tr>
+</table>
+
+<!--列表示例-->
+<ul>
+<li>Coffee</li>
+<li>Milk</li>
+</ul>
+```
+  
 ***
 ## HTML CSS
 1、使用`<head>`对HTML进行格式化,连接外部样式表详见[此处](https://www.w3school.com.cn/html/html_css.asp)
@@ -83,9 +126,17 @@
 <html>
     <head>
     <style type="text/css">
+    body{margin-left: 10%;margin-right: 10%;}
     h1 {color:darkslategray ; font-family: initial; text-align:center}<!--指定h1元素的格式-->
-    p {color: blue}<!--指定p元素的格式-->
+    p {color: blue} <!--指定p元素的格式-->
     </style>
     </head>
 </html>
 ```
+  
+## HTML div 和 span
+1、div 元素  
+用于组合其他 HTML 元素的容器，属于块级元素，浏览器会在其前后显示折行
+  
+2、span 元素  
+用于组合行内元素，属于内联级元素
