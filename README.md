@@ -59,11 +59,18 @@
 
 - `background-color` 属性为元素定义了**背景颜色**,颜色以名称或者代码表示
 - `font-family` 属性定义文本的**字体**
-- `font-size` 属性定义文本的**字体尺寸**
+- `font-size` 属性定义文本的**字体尺寸**，使用字号百分比进行定义
 - `text-align` 属性规定了元素中文本的水平对齐方式
   - center: 居中
   - end: 居右
   - justify: 居左
+- `margin` 属性定义距离，页面变化时相对变化
+  - margin-left:"2cm" 左空2cm
+  - margin-right:"4px" 右空4像素
+  - margin-head:"10%" 上空10%页面
+- `top`、`left`、`right`、`end` 定义与四周的绝对距离
+- `z-index` 属性定义叠加，=-1为底层，依次增加1为上1层
+  
   
 2、**图片相关属性**
 - `src` 属性在img元素内定义图片的URL地址，例如[http://www.w3school.com.cn/images/boat.gif](http://www.w3school.com.cn/images/boat.gif)
@@ -122,12 +129,28 @@
 ***
 ## HTML CSS
 1、使用`<head>`对HTML进行格式化,连接外部样式表详见[此处](https://www.w3school.com.cn/html/html_css.asp)
+  
+2、使用`class`进行样式的分类
+- 在head中用.class进行引用
+  - 在body中用class属性应用
+
+
+
 ```html
 <html>
     <head>
     <style type="text/css">
     body{margin-left: 10%;margin-right: 10%;}
     h1 {color:darkslategray ; font-family: initial; text-align:center}<!--指定h1元素的格式-->
+    p {color: blue} <!--指定p元素的格式-->
+    </style>
+    </head>
+    
+    <head>
+    <style type="text/css">
+    body{margin-left: 10%;margin-right: 10%;}
+    h1.class1 {color:darkslategray ; font-family: initial; text-align:center}<!--指定h1元素的class1样式格式-->
+    h1.class2 {color:blue ; font-family: initial; text-align:center ; font-size:"200%"}<!--指定h1元素的class2样式格式-->
     p {color: blue} <!--指定p元素的格式-->
     </style>
     </head>
